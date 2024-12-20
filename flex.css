@@ -1,0 +1,25 @@
+.flex-cont-main {
+    display: flex;
+    background-color: rgb(207, 230, 207);
+    border: 3px solid rgb(48, 71, 12);
+    padding: 10px;
+   
+    margin: 20px;
+}
+.flex-cont-main-one {
+    display: flex;
+    background-color: aquamarine;
+    padding: 15px;
+    border: 3px solid rgb(4, 4, 66);
+    flex: 1;
+}
+.flex-cont-one-1,
+.flex-cont-two-2,
+.flex-cont-three-3 {
+    height: 50px;
+    width: 100px;
+    background-color: bisque;
+    border: 3px solid rgb(236, 153, 44);
+    flex: 1;
+    margin: 5px;
+}
