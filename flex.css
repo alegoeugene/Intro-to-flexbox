@@ -19,7 +19,18 @@
     height: 50px;
     width: 100px;
     background-color: bisque;
-    border: 3px solid rgb(236, 153, 44);
+    border: 5px solid rgb(236, 153, 44);
     flex: 1;
     margin: 5px;
+}
+.flex-cont-two-2-1,
+.flex-cont-two-2-2 {
+    border: 7px solid red;
+    padding: 9px;
+    margin: 1px;
+    flex: 1;
+    background-color: rgb(247, 141, 158);
+}
+.flex-cont-two-2 {
+    display: flex;
 }
